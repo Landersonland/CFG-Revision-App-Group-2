@@ -1,0 +1,12 @@
+Different database account levels: 
+1. App user
+2. Database admin
+
+Single database for all accounts! 
+https://dev.mysql.com/doc/refman/8.0/en/database-use.html 
+
+What do we do with user data after a period of inactivity? Delete or give a preserve option.
+
+PHP?
+
+API example https://www.toptal.com/nodejs/secure-rest-api-in-nodejs

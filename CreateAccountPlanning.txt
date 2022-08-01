@@ -1,0 +1,22 @@
+Code that allows a person to create an account and stores that information securely
+
+*Don't put into main branch, put it into developing THEN on developing then merge it back
+
+Revision app user access ideas
+https://stackoverflow.com/questions/7014953/i-need-to-securely-store-a-username-and-password-in-python-what-are-my-options
+
+Ask the user to type in the password.
+Options for storing passwords:
+
+Validate the user's identity as quickly as possible 
+
+Avoid insecure passwords - easy to guess or stored in an insecure database
+
+SSH?
+Private key is never transmitted over the network, SSH runs mathematical calculations to prove that you have the right key.
+
+In order to make it work, the database needs to be accessible by SSH - is this too complex?
+Create an account to run the service that will make calls to the database, and generate SSH key.
+How can we add the public key to the app/ do we create a local account on that server, and install the public key there? 
+
+Best practices: https://cloud.google.com/blog/products/identity-security/account-authentication-and-password-management-best-practices 
